@@ -10,4 +10,4 @@ $(TARGET): $(OBJFILES)
 	    $(c) merge.c -o $(TARGET) $(OBJFILES)
 
 clean:
-	    rm -f $(TARGET) $(OBJFILES)
+	    rm -f $(TARGET) $(OBJFILES) random_data.txt sorted_data.txt
