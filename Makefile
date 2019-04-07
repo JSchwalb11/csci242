@@ -1,7 +1,7 @@
 c = gcc
 CFLAGS = -Wall
 LDFLAGS =
-OBJFILES =
+OBJFILES = array_util.o file_util.o
 TARGET = merge
 
 all: $(TARGET)
